@@ -31,5 +31,8 @@ public class Calculadora {
 	public double soma(){
 		return getNumero1() + getNumero2();
 	}
+	public double subtração(){
+		return getNumero1() - getNumero2();
+	}
 	
 }
