@@ -28,4 +28,8 @@ public class Calculadora {
 		this.numero2 = numero;
 	}
 	
+	public double soma(){
+		return getNumero1() + getNumero2();
+	}
+	
 }
