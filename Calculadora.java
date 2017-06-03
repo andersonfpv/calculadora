@@ -34,5 +34,8 @@ public class Calculadora {
 	public double subtração(){
 		return getNumero1() - getNumero2();
 	}
+	public double multiplicação(){
+		return getNumero1() * getNumero2();
+	}
 	
 }
