@@ -14,17 +14,18 @@ public class Calculadora {
 	public Calculadora(){
 		numero1 = numero2 = 0;
 	}
-	public int getNumero1(){
+	public double getNumero1(){
 		return numero1;
 	}		
 	public void setNumero1(double numero){
 		this.numero1 = numero;
 	}
 	
-	public int getNumero2(){
+	public double getNumero2(){
 		return numero2;
 	}		
 	public void setNumero2(double numero){
 		this.numero2 = numero;
 	}
+	
 }
