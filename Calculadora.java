@@ -37,5 +37,15 @@ public class Calculadora {
 	public double multiplicação(){
 		return getNumero1() * getNumero2();
 	}
+	public double divisão(){
+		if(getNumero1()>=getNumero2()){
+			return getNumero1 / getNumero1();
+		}else{
+			if(getNumero2()>=getNumero1()){
+				return getNumero2() / getNumero2();
+			}
+		}
+		
+	}
 	
 }
